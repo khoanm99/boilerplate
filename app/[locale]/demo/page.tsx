@@ -15,6 +15,9 @@ const PageDemo = () => {
           <li>
             <Link href="/demo/modal">Modal</Link>
           </li>
+          <li>
+            <Link href="/demo/graphql-setup">How to setup graphql</Link>
+          </li>
         </ul>
       </div>
     </div>
