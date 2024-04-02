@@ -1,0 +1,27 @@
+.lenis {
+  @apply h-auto;
+}
+
+.lenis.lenis-smooth {
+  @apply scroll-auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  @apply overscroll-contain;
+}
+
+.lenis.lenis-stopped {
+  @apply overflow-hidden
+}
+
+.lenis.lenis-scrolling iframe {
+  @apply pointer-events-none;
+}
+
+.fancybox__container {
+  @apply z-[100];
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
